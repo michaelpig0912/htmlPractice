@@ -1,0 +1,389 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+body{
+  margin: 0;
+  text-align: center;
+  background-color: #000;
+  color:#fff;
+  font-family: 'cwTeXYen', sans-serif;
+
+  background-image:url(../images/img001.jpg);
+  background-repeat:no-repeat;
+  position:relative;
+  background-size: cover;
+
+}
+
+.background{
+  background-image:url(../images/img001.jpg);
+  background-repeat:no-repeat;
+  position:relative;
+  background-size: cover;
+  height: 700px;
+}
+
+.background img{
+  width: 100%;
+}
+
+.overflow{
+  overflow: hidden;
+}
+
+.filter{
+  filter:blur(5px);
+}
+
+.full-width{
+  width: 100%;
+}
+
+.fixed-width{
+}
+
+.index{
+  position:absolute;
+  top: 0;
+}
+
+.logo{
+  display: block;
+  width: 100px;
+  height: 75px;
+  margin: 35px auto;
+  padding-top: 25px;
+  font-size: 3rem;
+  border-radius: 50px;
+  border: 2px #fff solid;
+  color:#fff;
+
+}
+
+h1{
+    font-style: 2rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+h2{
+  font-size: 2rem;
+  text-align: left;
+  padding: 0 30px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: 5px;
+}
+
+
+h3{
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+h4{
+  font-size: 1rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+.lineTop {
+    width: 75%;
+    margin: 35px 12.5% 50px;
+    border-top: solid #fff 2px;
+}
+
+.lineRight {
+
+  margin: -35px 50% ;
+  height: 40px;
+  border-right: solid #fff 2px;
+}
+
+.lineUnderTop {
+  width: 75%;
+  margin: 35px 12.5%;
+  border-top: solid #fff 2px;
+}
+
+.lineUnderRight {
+  margin: -35px 50% ;
+  height: 80px;
+  border-right: solid #fff 2px;
+}
+
+.indexBtn{
+  width: 100%;
+  position: relative;
+  top:35px;
+}
+
+.btnWork, .btnAbout{
+  position: relative;
+  left: 50%;
+  height: 40px;
+  width: 300px;
+  border: solid #fff 2px;
+  margin: -2px 0 0 -150px;
+  padding: 10px 0 0 0;
+  font-size: 0.8rem;
+}
+
+.btnIntro{
+  position: relative;
+  left: 50%;
+  height: 40px;
+  width: 300px;
+  border: solid #fff 2px;
+  margin: -2px 0 0 -150px;
+  padding: 10px 0 0 0;
+  font-size: 0.8rem;
+   border-radius: 10px 10px 0px 0px;
+}
+
+.btnContact{
+ position: relative;
+ left: 50%;
+ height: 40px;
+ width: 300px;
+ border: solid #fff 2px;
+ margin: -2px 0 0 -150px;
+ padding: 10px 0 0 0;
+ font-size: 0.8rem;
+ border-radius: 0px 0px 10px 10px;
+}
+
+.btnIntro a ,.btnWork a,.btnAbout a,.btnContact a{
+  text-decoration: none;
+  display: block;
+  color: #fff;
+  letter-spacing: 0.1rem;
+  line-height: 32px;
+}
+
+.btnIntro:hover ,.btnWork:hover,.btnAbout:hover,.btnContact:hover{
+  background-color: rgba(255,255,255,0.2);
+  transition: background-color 0.3s;
+}
+.intro ,.work,.about{
+  position:absolute;
+  top: 40px;
+  left: 50%;
+  margin: 0 -40%;
+  width: 80%;
+  height: 333px;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.contact{
+  position:absolute;
+  top: 40px;
+  left: 50%;
+  margin: 0 -40%;
+  width: 80%;
+  height: 480px;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.fa-times{
+  position:absolute;
+  top: 15px;
+  left:50%;
+  margin:0 0 0 35%;
+  font-size: 2rem;
+  color: #ccc;
+  text-decoration: none;
+  border-radius: 30px;
+  width: 50px;
+  height:40px;
+  display: block;
+  padding-top: 10px;
+}
+
+.fa-times:hover{
+  background-color: rgba(255,255,255,0.1);
+  transition: background-color 0.3s;
+}
+
+.titleLine{
+  border-top: solid #fff 2px;
+  width: 200px;
+  margin: -25px 0px 0px 30px;
+}
+
+.intro h3,.work h3,.about h3,.contact h3{
+  padding: 30px 50px 50px 50px;
+  text-align: left;
+  letter-spacing: 0.1rem;
+  background-color: rgba(0,0,0,0.6);
+  font-weight: lighter;
+}
+
+.photo{
+  padding-top: 20px;
+  height:230px;
+  width: 80%;
+  position: relative;
+  left: 50%;
+  margin: 0 -40%;
+  overflow: hidden;
+}
+
+.photo img{
+  width: 100%;
+}
+
+.name{
+  float: left;
+  width: 50%;
+  height: 100px;
+}
+
+.name h4{
+  position: absolute;
+  top: 70px;
+  left: 5%;
+}
+
+.name input{
+  position: absolute;
+  width:40%;
+  height: 30px;
+  top:120px;
+  left: 5%;
+  border-radius: 10px;
+  background-color: rgba(0,0,0,0);
+  border: solid #fff 1px;
+  z-index:200;
+  color: #fff;
+  padding: 5px 10px 5px 10px;
+}
+
+.name input:focus{
+  border: solid #fff 2px;
+  background-color: rgba(255,255,255,0.1);
+  outline:none;
+}
+
+.email{
+  float: right;
+  width: 50%;
+  height: 100px;
+}
+
+.email h4{
+  position: absolute;
+  top: 90px;
+  left: 50%;
+  margin: 0 0 0 3%;
+}
+
+.email input{
+  position: absolute;
+  width:40%;
+  height: 30px;
+  top:120px;
+  left: 50%;
+  border-radius: 10px;
+  background-color: rgba(0,0,0,0);
+  border: solid #fff 1px;
+  z-index:200;
+  color: #fff;
+  padding: 5px 10px 5px 10px;
+  margin: 0 0 0 3%;
+}
+
+.email input:focus{
+  border: solid #fff 2px;
+  background-color: rgba(255,255,255,0.1);
+  outline:none;
+}
+
+.message{
+  float: center;
+  height: 200px;
+  width: 100%;
+  position: relative;
+  top:100px;
+}
+
+.message h4{
+  position: absolute;
+  top: -10px;
+  left: 5%;
+}
+
+.message textarea{
+  position: absolute;
+  width:88%;
+  height: 120px;
+  border-radius: 10px;
+  top: 40px;
+  left: 5%;
+  resize: none;
+  background-color: rgba(0,0,0,0);
+  border: solid #fff 1px;
+  color: #fff;
+  padding: 5px 10px 5px 10px;
+}
+
+.message textarea:focus{
+  border: solid #fff 2px;
+  background-color: rgba(255,255,255,0.1);
+  outline:none;
+}
+
+.btnForSent{
+  height: 70px;
+  width: 100%;
+  position: relative;
+  top:100px;
+}
+
+.btnSent{
+  background-color: rgba(255,255,255,1);
+  color: #000;
+  border: solid #fff 1.5px;
+  border-radius: 10px;
+  height: 50px;
+  width: 30%;
+  float: left;
+  margin: 0 0 0 5%;
+  z-index: 200;
+}
+
+.btnReset{
+  color: #fff;
+  background-color: rgba(255,255,255,0);
+  border: solid #fff 1.5px;
+  border-radius: 10px;
+  height: 50px;
+  width: 20%;
+  float: left;
+  margin: 0px 0 0 5%;
+}
+
+.btnReset:hover{
+    background-color: rgba(255,255,255,0.1);
+    transition: background-color 0.3s;
+}
+
+.icon{
+  float: left;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 50px;
+  border: 1px #fff solid;
+  color: #fff;
+  padding-top: 5px;
+  height: 20px;
+  width: 25px;
+  position: relative;
+  top:100px;
+  left: 35px;
+  margin: 0px 10px 0 0;
+}
+
+.icon:hover{
+  background-color: rgba(255,255,255,0.1);
+  transition: background-color 0.3s;
+}

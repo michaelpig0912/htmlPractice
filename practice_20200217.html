@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>michaelpig的網站 建構中...</title>
+  <link href="fontawesome/css/all.css" rel="stylesheet">
+  <link href="css/desktop.css" rel="stylesheet" media="screen and (min-aspect-ratio:4/3)">
+  <link href="css/phone.css" rel="stylesheet" media="screen and (max-aspect-ratio:4/3)">
+  <script src="js/jquery-3.4.1.js"></script>
+</head>
+<script>
+  /*初始狀態 start*/
+  $("document").ready(function() {
+
+    $(".indexWord,.intro,.work,.about,.contact").hide();
+    $("body").fadeIn(500);
+    $(".indexWord").show(2000);
+
+    $("a.aIntro").click(function() {
+      $(".background").addClass("filter");
+      $(".index").fadeOut(1000);
+      $(".intro").fadeIn(1000);
+    });
+
+    $("a.aWork").click(function() {
+      $(".background").addClass("filter");
+      $(".index").fadeOut(1000);
+      $(".work").fadeIn(1000);
+    });
+    $("a.aAbout").click(function() {
+      $(".background").addClass("filter");
+      $(".index").fadeOut(1000);
+      $(".about").fadeIn(1000);
+    });
+    $("a.aContact").click(function() {
+      $(".background").addClass("filter");
+      $(".index").fadeOut(1000);
+      $(".contact").fadeIn(1000);
+    });
+
+    $("a.fas").click(function() {
+      $(".index").fadeIn(1000);
+      $(".intro ,.work,.about,.contact").fadeOut(1000);
+      $(".background").removeClass("filter");
+    });
+  });
+</script>
+
+<body>
+  <div class="background"></div>
+  <div class="full-width index">
+    <div class="fixed-width">
+      <div class="mainPage">
+        <div class="logo">
+          <i class="fas fa-atom"></i>
+        </div>
+        <div class="lineRight"></div>
+        <div class="lineTop"></div>
+        <div class="indexWord">
+          <h1>michaelpig</h1>
+          <h3>網頁 建構中...</h3>
+        </div>
+        <div class="lineUnderTop"></div>
+        <div class="lineUnderRight"></div>
+        <div class="indexBtn">
+          <div class="btnIntro">
+            <a href="#" class="aIntro">INTRO</a>
+          </div>
+          <div class="btnWork">
+            <a href="#" class="aWork">WORK</a>
+          </div>
+          <div class="btnAbout">
+            <a href="#" class="aAbout">ABOUT</a>
+          </div>
+          <div class="btnContact">
+            <a href="#" class="aContact">CONTACT</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="intro">
+    <a href="#" class="fas fa-times"></a>
+    <h2>intro</h2>
+    <div class="titleLine"></div>
+    <div class="photo"><img src="images/box_2.jpg"></div>
+    <h3>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat
+      id euismod egestas. By the way, check out my awesome work.
+
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam
+      venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant
+      morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</h3>
+  </div>
+  <div class="work">
+    <a href="#" class="fas fa-times"></a>
+    <h2>WORK</h2>
+    <div class="titleLine"></div>
+    <div class="photo"><img src="images/img006.jpg"></div>
+    <h3>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat
+      id euismod egestas. By the way, check out my awesome work.
+
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam
+      venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant
+      morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</h3>
+  </div>
+  <div class="about">
+    <a href="#" class="fas fa-times"></a>
+    <h2>ABOUT</h2>
+    <div class="titleLine"></div>
+    <div class="photo"><img src="images/img005.jpg"></div>
+    <h3>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat
+      id euismod egestas. By the way, check out my awesome work.
+
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam
+      venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant
+      morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</h3>
+  </div>
+  <div class="contact">
+    <a href="#" class="fas fa-times"></a>
+    <h2>contact</h2>
+    <div class="titleLine"></div>
+    <div class="data">
+      <form action="送出目的地" method="資料傳送方式">
+        <div class="name">
+          <h4>NAME</h4>
+          <input type="text" name="name">
+        </div>
+        <div class="email">
+          <h4>EMAIL</h4>
+          <input type="email" name="email">
+        </div>
+        <div class="message">
+          <h4>message</h4>
+          <textarea name="message"></textarea>
+        </div>
+        <div class="btnForSent">
+          　<input class="btnSent" type="submit" value="SEND MESSAGE">
+          <input class="btnReset" type="button" value="RESET">
+        </div>
+      </form>
+      <a href="#" class="fab fa-twitter icon"></a>
+      <a href="#" class="fab fa-facebook-f icon"></a>
+      <a href="#" class="fab fa-instagram icon"></a>
+      <a href="#" class="fab fa-github icon"></a>
+    </div>
+  </div>
+</body>
+
+</html>
